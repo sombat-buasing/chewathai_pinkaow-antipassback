@@ -1,0 +1,129 @@
+object frmAlarm3: TfrmAlarm3
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'Alarm3'
+  ClientHeight = 141
+  ClientWidth = 193
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 193
+    Height = 141
+    Align = alClient
+    TabOrder = 0
+    DesignSize = (
+      193
+      141)
+    object Panel2: TPanel
+      Left = 7
+      Top = 8
+      Width = 178
+      Height = 124
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      Color = clRed
+      ParentBackground = False
+      ShowCaption = False
+      TabOrder = 0
+      object lbDate_time: TLabel
+        AlignWithMargins = True
+        Left = 4
+        Top = 29
+        Width = 170
+        Height = 20
+        Align = alTop
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Date-Time'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Layout = tlCenter
+        ExplicitTop = 22
+      end
+      object lbRoom: TLabel
+        Left = 1
+        Top = 52
+        Width = 176
+        Height = 20
+        Align = alTop
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Room no : '
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Layout = tlCenter
+        ExplicitTop = 45
+      end
+      object lbSuccess: TLabel
+        Left = 1
+        Top = 72
+        Width = 176
+        Height = 20
+        Align = alTop
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Success'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Layout = tlCenter
+        ExplicitTop = 65
+      end
+      object lbRemark: TLabel
+        Left = 1
+        Top = 92
+        Width = 176
+        Height = 20
+        Align = alTop
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Remark'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Layout = tlCenter
+        ExplicitTop = 85
+      end
+      object lbGate: TLabel
+        Left = 1
+        Top = 1
+        Width = 176
+        Height = 25
+        Align = alTop
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Gate'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Layout = tlCenter
+      end
+    end
+  end
+end
